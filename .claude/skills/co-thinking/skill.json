@@ -1,0 +1,109 @@
+{
+  "name": "co-thinking",
+  "version": "1.0.0",
+  "description": "AIと共に思考を深めるための協働思考スキルパッケージ",
+  "author": "co-thinking-lab",
+  "skills": [
+    {
+      "name": "think-analyze",
+      "description": "問題を構造化して分析し、課題を明確にする",
+      "category": "thinking",
+      "file": "think-analyze.md"
+    },
+    {
+      "name": "think-decide",
+      "description": "選択肢を評価し、最適な意思決定を行う",
+      "category": "thinking",
+      "file": "think-decide.md"
+    },
+    {
+      "name": "think-brainstorm",
+      "description": "創造的にアイデアを発散し、新しい可能性を探る",
+      "category": "thinking",
+      "file": "think-brainstorm.md"
+    },
+    {
+      "name": "think-learn",
+      "description": "新しい知識を効果的に学び、既存の知識と統合する",
+      "category": "thinking",
+      "file": "think-learn.md"
+    },
+    {
+      "name": "think-hr",
+      "description": "公正で多角的な人事評価を行う",
+      "category": "thinking",
+      "file": "think-hr.md"
+    },
+    {
+      "name": "think-goal",
+      "description": "効果的な目標を設定し、実行可能な計画を立てる",
+      "category": "thinking",
+      "file": "think-goal.md"
+    },
+    {
+      "name": "think-agenda",
+      "description": "効果的な会議のアジェンダを作成する",
+      "category": "thinking",
+      "file": "think-agenda.md"
+    },
+    {
+      "name": "think-feedback",
+      "description": "複数のペルソナからフィードバックを取得する",
+      "category": "management",
+      "file": "think-feedback.md"
+    },
+    {
+      "name": "think-review",
+      "description": "思考ログをレビューし、要約を生成する",
+      "category": "management",
+      "file": "think-review.md"
+    },
+    {
+      "name": "think-search",
+      "description": "過去の思考ログを検索する",
+      "category": "management",
+      "file": "think-search.md"
+    },
+    {
+      "name": "think-report",
+      "description": "思考プロセスを可視化し、レポートを生成する",
+      "category": "management",
+      "file": "think-report.md"
+    }
+  ],
+  "dependencies": {
+    "knowledge": {
+      "constitution": "knowledge/constitution.md",
+      "personas": [
+        "knowledge/personas/business-owner.md",
+        "knowledge/personas/team-member.md",
+        "knowledge/personas/end-user.md"
+      ],
+      "frameworks": [
+        "knowledge/frameworks/problem-analysis.md",
+        "knowledge/frameworks/decision-making.md",
+        "knowledge/frameworks/brainstorming.md",
+        "knowledge/frameworks/learning.md",
+        "knowledge/frameworks/hr-evaluation.md",
+        "knowledge/frameworks/goal-setting.md",
+        "knowledge/frameworks/agenda.md"
+      ]
+    },
+    "templates": [
+      "templates/problem-analysis.md",
+      "templates/decision-making.md",
+      "templates/brainstorming.md",
+      "templates/learning.md",
+      "templates/hr-evaluation.md",
+      "templates/goal-setting.md",
+      "templates/agenda.md"
+    ]
+  },
+  "principles": [
+    "誠実性 (Integrity)",
+    "多様性 (Diversity)",
+    "構造化 (Structure)",
+    "実践性 (Practicality)",
+    "継続的改善 (Continuous Improvement)"
+  ]
+}
