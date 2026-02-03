@@ -1,5 +1,8 @@
 # Personal information - not tracked in git
 # Exclude files inside these directories, but keep the directories themselves
+knowledge/base/*
+!knowledge/base/.gitkeep
+
 knowledge/references/*
 !knowledge/references/.gitkeep
 
