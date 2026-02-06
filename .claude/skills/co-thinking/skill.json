@@ -17,18 +17,6 @@
       "file": "think-decide.md"
     },
     {
-      "name": "think-brainstorm",
-      "description": "創造的にアイデアを発散し、新しい可能性を探る",
-      "category": "thinking",
-      "file": "think-brainstorm.md"
-    },
-    {
-      "name": "think-learn",
-      "description": "新しい知識を効果的に学び、既存の知識と統合する",
-      "category": "thinking",
-      "file": "think-learn.md"
-    },
-    {
       "name": "think-hr",
       "description": "公正で多角的な人事評価を行う",
       "category": "thinking",
@@ -72,31 +60,31 @@
     }
   ],
   "dependencies": {
-    "knowledge": {
-      "constitution": "knowledge/constitution.md",
-      "personas": [
-        "knowledge/personas/business-owner.md",
-        "knowledge/personas/team-member.md",
-        "knowledge/personas/end-user.md"
-      ],
+    "constitution": "constitution.md",
+    "system": {
       "frameworks": [
-        "knowledge/frameworks/problem-analysis.md",
-        "knowledge/frameworks/decision-making.md",
-        "knowledge/frameworks/brainstorming.md",
-        "knowledge/frameworks/learning.md",
-        "knowledge/frameworks/hr-evaluation.md",
-        "knowledge/frameworks/goal-setting.md",
-        "knowledge/frameworks/agenda.md"
+        "system/frameworks/problem-analysis.md",
+        "system/frameworks/decision-making.md",
+        "system/frameworks/hr-evaluation.md",
+        "system/frameworks/goal-setting.md",
+        "system/frameworks/agenda.md",
+        "system/frameworks/monthly-planning.md"
+      ],
+      "templates": [
+        "system/templates/problem-analysis.md",
+        "system/templates/decision-making.md",
+        "system/templates/hr-evaluation.md",
+        "system/templates/goal-setting.md",
+        "system/templates/agenda.md",
+        "system/templates/monthly-planning.md"
       ]
     },
-    "templates": [
-      "templates/problem-analysis.md",
-      "templates/decision-making.md",
-      "templates/brainstorming.md",
-      "templates/learning.md",
-      "templates/hr-evaluation.md",
-      "templates/goal-setting.md",
-      "templates/agenda.md"
+    "personas": [
+      ".claude/agents/personas/business-owner.md",
+      ".claude/agents/personas/team-member.md",
+      ".claude/agents/personas/end-user.md",
+      ".claude/agents/personas/goal-oriented-manager.md",
+      ".claude/agents/personas/long-term-oriented-manager.md"
     ]
   },
   "principles": [
